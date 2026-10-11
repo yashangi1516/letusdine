@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart - LetUsDine</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-left">
+      <div class="logo">L</div>
+      <span class="brand">LetUsDine</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="cart.html">Cart</a>
+      <a href="admin.html">Admin</a>
+      <span class="cart-pill">Cart <span class="cart-count">0</span></span>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2 class="section-title">Your Cart</h2>
+
+    <div class="cart-wrapper">
+      <div id="cart-container"></div>
+
+      <div class="cart-total">
+        <span>Total</span>
+        <span id="cart-total">₹0</span>
+      </div>
+
+      <div style="margin-top:16px; text-align:right;">
+        <button class="btn-primary" onclick="window.location.href='checkout.html'">
+          Proceed to Checkout
+        </button>
+      </div>
+    </div>
+
+    <div class="footer">
+      LetUsDine • Cart stored in localStorage.
+    </div>
+  </div>
+
+</body>
+</html>

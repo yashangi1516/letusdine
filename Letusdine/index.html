@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LetUsDine - Home</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-left">
+      <div class="logo">L</div>
+      <span class="brand">LetUsDine</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="cart.html">Cart</a>
+      <a href="admin.html">Admin</a>
+      <span class="cart-pill">Cart <span class="cart-count">0</span></span>
+    </div>
+  </nav>
+
+  <div class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Delicious food, delivered your way.</h1>
+        <p>LetUsDine brings your favorite meals from top restaurants straight to your doorstep.</p>
+
+        <div class="hero-search">
+          <input type="text" placeholder="Search for pizza, burger, pasta...">
+          <button onclick="window.location.href='menu.html'">Explore Menu</button>
+        </div>
+
+        <div class="hero-tags">
+          <span>🔥 Trending: Pizza</span>
+          <span>⭐ Top Rated</span>
+          <span>⏱ Under 30 mins</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <h3>Today’s Highlights</h3>
+        <ul style="margin-top:12px; font-size:14px; color:#555; line-height:1.6;">
+          <li>🍕 Classic Margherita with extra cheese</li>
+          <li>🍔 Veggie Supreme Burger</li>
+          <li>🍝 Creamy Alfredo Pasta</li>
+        </ul>
+      </div>
+    </section>
+
+    <h2 class="section-title">Popular Categories</h2>
+
+    <div class="grid">
+      <div class="card">
+        <img src="assets/images/pizza.jpg">
+        <div class="card-body">
+          <h3>Pizza</h3>
+          <p class="category">Cheesy, loaded, and fresh.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/burger.jpg">
+        <div class="card-body">
+          <h3>Burgers</h3>
+          <p class="category">Stacked and juicy.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/pasta.jpg">
+        <div class="card-body">
+          <h3>Pasta</h3>
+          <p class="category">Creamy and comforting.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/fries.jpg">
+        <div class="card-body">
+          <h3>Snacks</h3>
+          <p class="category">Perfect for quick bites.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      LetUsDine • Dummy project for demo purposes.
+    </div>
+  </div>
+
+</body>
+</html>
